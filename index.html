@@ -1,27 +1,132 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-	<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-	<link href="http://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" type="text/css">
-	<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+<html lang="en">
 
-	<title>Arpit</title>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Scrolling Nav - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+		<link href="css/stylesheet.css" rel="stylesheet">
 </head>
 
-<body>
-	<div id="content">
-		<h1>Arpit Agarwal</h1>
-		<div id="desc">
-			<p>Wordpress, Quora, Sublime Text and Porcupine Tree</p>
-		</div>
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
-		<div id="links">
-			<a href="https://atvanguard.wordpress.com/" target="_blank"><img src="img/wp.jpg" class="img-circle"></a>
-			<a href="https://www.quora.com/Arpit-Agarwal-15" target="_blank"><img src="img/quora.png" class="img-circle"></a>
-			<a href="https://twitter.com/atvanguard" target="_blank"><img src="img/twitter.jpg" class="img-circle"></a>
-			<a href="https://www.facebook.com/arpit.agrwl" target="_blank"><img src="img/fb.png" class="img-circle"></a>
-		</div>
-	</div>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Arpit Agarwal</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <!-- <li>
+                        <a class="navbar-brand page-scroll" href="#intro">About</a>
+                    </li> -->
+										<!-- <li>
+                        <a class="page-scroll" href="#blog">Blog</a>
+                    </li> -->
+                    <!-- <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li> -->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- <h1>Hi! I am Arpit</h1> -->
+                    <p>Hi! I am Arpit. I am a part of the team of software engineers at <a href="https://www.semantics3.com">Semantics3</a>;
+                      lovingly baked at <a href="https://www.ycombinator.com/">YC</a>.</br>
+                      We currently are a 25 person company and strive towards providing data solutions to big and small Ecommerce players.</p>
+                    <p>Prior to this, I worked at Google with the <a href="https://gsuite.google.com/">G Suite</a> team, more popularly known as the Google Apps for Work.</p>
+                    <br>
+                    <p>Follow my lukewarm activity on
+                      <a href="https://www.quora.com/profile/Arpit-Agarwal-15">Quora</a>,
+                      <a href="https://twitter.com/atvanguard">Twitter</a>,
+                      <a href="https://github.com/atvanguard">Github</a>,<br>
+                      my personal blog <a href="https://atvanguard.wordpress.com/">Cinnamon and Whiskey</a>,
+                      or my (now dormant) blog on rockmusic <a href="https://rockfolktales.wordpress.com/">Rockfolktales</a>.
+                    </p>
+                    <p>You can contact me at 93arpit@gmail.com.</p>
+                    <!-- <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <!-- <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>About Section</h1>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Blog Section -->
+    <!-- <section id="blog" class="blog-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Blog</h1>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+		<!-- Contact Section -->
+    <!-- <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Contact Section</h1>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
 </body>
+
 </html>
